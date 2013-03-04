@@ -3,4 +3,4 @@
 ./set-distro-poky.sh
 . ./environment.sh
 
-bitbake hype-image
+bitbake hype-installer
