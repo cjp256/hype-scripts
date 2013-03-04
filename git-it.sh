@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#git submodule add -b master git://github.com/cjp256/meta-hype.git
-#git submodule add -b master git://github.com/flihp/meta-measured.git
+#git submodule add -b master https://github.com/cjp256/meta-hype.git
+#git submodule add -b master https://github.com/flihp/meta-measured.git
 #git submodule add -b 1.4_M3 git://git.yoctoproject.org/poky
 #git submodule add -b danny git://git.yoctoproject.org/meta-intel
 #git submodule add -b danny git://git.openembedded.org/openembedded-core
