@@ -1,18 +1,16 @@
 #!/bin/bash
 
 INSTALLER_IMAGE=$(readlink -f ./tmp.oe-hype-eglibc/deploy/images/hype-installer-sugarbay.iso)
-PXE_TMP_DIR=$(readlink -f ./pxe)
-PXE_SCP_DIR="chris@tango.local:/var/lib/tftpboot/installer/"
+PXE_TMP_DIR=$(mktemp -d)
+
+if [[ -z $PXE_SCP_DIR ]]; then
+	PXE_SCP_DIR="chris@tango.local:/var/lib/tftpboot/installer/"
+fi
 
 if [[ ! -f ${INSTALLER_IMAGE} ]]; then
 	echo "installer image does not exist!"
 	exit 1
 fi
-
-#if [[ ! -f ${INSTALLER_RAMDISK} ]]; then
-#	echo "installer ramdisk does not exist!"
-#	exit 1
-#fi
 
 if [[ -z $(which 7z) ]]; then
 	echo "you must install 7z!"
