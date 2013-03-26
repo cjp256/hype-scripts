@@ -4,6 +4,6 @@ rm conf
 ln -sf oe-hype-conf conf
 
 pushd ../meta-intel
-git checkout danny
+git checkout master
 popd
 
