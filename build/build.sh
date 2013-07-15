@@ -1,6 +1,5 @@
-#!/bin/bash
+#!/bin/bash -x
 
-./set-distro-poky.sh
 . ./environment.sh
 
 bitbake hype-installer

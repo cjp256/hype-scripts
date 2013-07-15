@@ -19,3 +19,6 @@
 [submodule "bitbake"]
 	path = bitbake
 	url = git://git.openembedded.org/bitbake
+[submodule "meta-virtualization"]
+	path = meta-virtualization
+	url = http://git.yoctoproject.org/git/meta-virtualization
