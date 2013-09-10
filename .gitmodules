@@ -21,4 +21,4 @@
 	url = git://git.openembedded.org/bitbake
 [submodule "meta-virtualization"]
 	path = meta-virtualization
-	url = http://git.yoctoproject.org/git/meta-virtualization
+	url = http://github.com/cjp256/meta-virtualization.git
