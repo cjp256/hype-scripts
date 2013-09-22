@@ -12,7 +12,7 @@
 	url = git://git.yoctoproject.org/meta-intel
 [submodule "openembedded-core"]
 	path = openembedded-core
-	url = git://git.openembedded.org/openembedded-core
+	url = https://github.com/cjp256/oe-core.git
 [submodule "meta-openembedded"]
 	path = meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
@@ -21,4 +21,4 @@
 	url = git://git.openembedded.org/bitbake
 [submodule "meta-virtualization"]
 	path = meta-virtualization
-	url = http://github.com/cjp256/meta-virtualization.git
+	url = https://github.com/cjp256/meta-virtualization.git
