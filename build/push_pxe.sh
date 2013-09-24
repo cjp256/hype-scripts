@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INSTALLER_IMAGE=$(readlink -f ./tmp.oe-hype-eglibc/deploy/images/hype-installer-sugarbay.iso)
+INSTALLER_IMAGE=$(readlink -f ./tmp.oe-hype-eglibc/deploy/images/sugarbay/hype-installer-sugarbay.iso)
 PXE_TMP_DIR=$(mktemp -d)
 
 if [[ -z $PXE_SCP_DIR ]]; then
