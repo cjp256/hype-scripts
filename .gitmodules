@@ -22,3 +22,6 @@
 [submodule "meta-virtualization"]
 	path = meta-virtualization
 	url = https://github.com/cjp256/meta-virtualization.git
+[submodule "meta-xengt"]
+	path = meta-xengt
+	url = https://github.com/cjp256/meta-xengt.git
