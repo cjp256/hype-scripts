@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir -p downloads
-cd downloads
+mkdir -p shared-downloads
+cd shared-downloads
 
 wget https://chrispatterson.net/pub/intel_acm_modules/2nd-gen-i5-i7-sinit-51.zip
 echo "" > 2nd-gen-i5-i7-sinit-51.zip.done
