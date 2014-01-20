@@ -17,3 +17,7 @@ git remote add cjp256 https://github.com/cjp256/meta-virtualization.git
 popd
 
 git clone https://github.com/cjp256/meta-xengt.git
+git clone https://github.com/flihp/meta-selinux.git
+git clone https://github.com/flihp/meta-integral.git
+git clone https://github.com/cjp256/meta-yocto-bloat.git
+git clone https://github.com/cazfi/meta-games.git

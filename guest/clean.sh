@@ -1,1 +1,1 @@
-rm -rf sstate-cache.* tmp.* pseudodone
+rm -rf cache sstate tmp-eglibc pseudodone bitbake.lock
